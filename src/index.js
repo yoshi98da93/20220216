@@ -1,10 +1,11 @@
-import "./styles.css";
+/**
+ * スプレッド構文...
+ */
+//配列の展開
+const arr1 = [1, 2];
+// console.log(arr1);
+// console.log(...arr1);
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+const sumFunc = (num1, num2) => console.log(num1 + num2);
+sumFunc(arr1[0], arr1[1]);
+sumFunc(...arr1);
