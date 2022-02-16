@@ -105,6 +105,13 @@
 // console.log(message4);
 
 /**
+ * デフォルト値、引数など
+ */
+
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん`);
+// sayHello();
+
+/**
  * スプレッド構文...
  */
 //配列の展開
